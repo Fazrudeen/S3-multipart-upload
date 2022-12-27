@@ -1,0 +1,17 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+toss:
+  url: https://toss.com
+  bucket: ah-temporary
+  access-key:
+  secret-key:
+  min-file-size: 5242880
+  max-file-size: 104857600
+
+publish:
+  image-asset-types: image/png,image/jpg,image/jpeg
+  content-asset-types: application/pdf,video/mp4,text/vtt,application/octet-stream
